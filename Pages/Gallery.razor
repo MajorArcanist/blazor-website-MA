@@ -1,0 +1,67 @@
+@page "/gallery"
+
+<PageTitle>Image Gallery</PageTitle>
+
+@using BlazorApp.Data
+@using System.IO
+@inject ImageService ImageService
+
+<h1>Image Gallery</h1>
+
+@if (images == null) 
+{
+    <p><em>Gathering images...</em></p>
+}
+else if(images.Count > 0) 
+{
+    <div class="container">
+        <div class="row">
+            @foreach (var image in images)
+            {
+                <div class="col">
+                    <img src =@image.Path style="width:300px;height:300px;" onclick="@(() => OpenImageDialog(image.Id))">
+                    <p onclick="@(() => OpenImageDialog(image.Id))">@image.Title</p>
+                </div>
+            }
+        </div>
+    </div>
+} else 
+{
+    <p><em>Doesn't seem to be anything here...</em></p>
+}
+
+@if (ImageDialogOpen)
+{
+    <GalleryImage Title=@modalImage.Title
+                 imageSource=@modalImage.Path
+                 Text=@modalImage.Description
+                 ImageId=@modalImage.Id
+                 Format=@modalImage.Format
+                 OnClose="@OnImageDialogClose">
+    </GalleryImage>
+}
+
+@code {
+    	
+    public bool ImageDialogOpen { get; set; }
+    private List<Image>? images;
+    
+    public Image modalImage { get; set; } = new Image();
+
+    protected override async Task OnInitializedAsync()
+    {
+        images = await ImageService.GetXMLImageListAsync();
+    }
+
+    private async Task OnImageDialogClose(bool accepted)
+    {
+        ImageDialogOpen = false;
+        StateHasChanged();
+    }
+    private void OpenImageDialog(int imgId)
+    {
+        modalImage = images.Where(i => i.Id == imgId).FirstOrDefault();
+        ImageDialogOpen = true;
+        StateHasChanged();
+    }
+}

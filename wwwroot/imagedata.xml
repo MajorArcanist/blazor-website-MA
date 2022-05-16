@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root>
+    <Image>
+        <Id>1</Id>
+        <Name>sarah.png</Name>
+        <Title>Woman, Split</Title>
+        <Description>This was a gift!</Description>
+        <Format>Pixel Art</Format>
+    </Image>
+    <Image>
+        <Id>2</Id>
+        <Name>self.png</Name>
+        <Title>Self Portrait</Title>
+        <Description>Me in black and white pixels.</Description>
+        <Format>Pixel Art</Format>
+    </Image>
+    <Image>
+        <Id>3</Id>
+        <Name>TheEmperor.png</Name>
+        <Title>Tarot Card: The Emperor</Title>
+        <Description>This is a Tarot Card!</Description>
+        <Format>Photo Manipulation</Format>
+    </Image>
+    <Image>
+        <Id>4</Id>
+        <Name>TheFool.png</Name>
+        <Title>Tarot Card: The Emperor</Title>
+        <Description>This is a Tarot Card!</Description>
+        <Format>Photo Manipulation</Format>
+    </Image>
+    <Image>
+        <Id>5</Id>
+        <Name>TheHermit.png</Name>
+        <Title>Tarot Card: The Hermit</Title>
+        <Description>This is a Tarot Card!</Description>
+        <Format>Photo Manipulation</Format>
+    </Image>
+    <Image>
+        <Id>6</Id>
+        <Name>TheTower.png</Name>
+        <Title>Tarot Card: The Tower</Title>
+        <Description>This is a Tarot Card!</Description>
+        <Format>Photo Manipulation</Format>
+    </Image>
+    <Image>
+        <Id>7</Id>
+        <Name>twocolors.png</Name>
+        <Title>Gloomy Street</Title>
+        <Description>This was made in AESPRITE!</Description>
+        <Format>Pixel Art</Format>
+    </Image>
+</root>

@@ -1,0 +1,73 @@
+@using BlazorApp.Data
+@inject CommentService CommentService
+
+<div class="modal fade show" id="myModal" style="display:block; background-color: rgba(10,10,10,.8);"
+     aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">@Title - @Format</h4>
+                <button type="button" class="close" @onclick="@ModalCancel">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img src =@imageSource style='max-width: 100%; max-height: 100vh; object-fit: contain'>
+                <p>@Text</p>
+                <br />
+                @* <EditForm Model="@CommentContext" OnValidSubmit="@ValidCommentSubmit" OnInvalidSubmit="InvalidCommentSubmit">
+                    <DataAnnotationsValidator />
+                </EditForm> *@
+                <p>Comments</p>
+                @if (comments == null)
+                {
+                    <p><em>Gathering comments...</em></p>
+                }
+                else
+                {
+                    <div class="comment-container">
+                    @foreach (var comment in comments)
+                    {
+                        <div>
+                            <hr>
+                            <p>@comment.Commentor</p>
+                            <p>@comment.Contents</p>
+                        </div>
+                    }
+                    </div>
+                }
+                </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" @onclick=@ModalOk>OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int ImageId { get; set; }
+    [Parameter]
+    public string Title { get; set; }
+    [Parameter]
+    public string imageSource { get; set; }
+    [Parameter]
+    public string Text { get; set; }
+    [Parameter]
+    public string Format { get; set; }
+    [Parameter]
+    public EventCallback<bool> OnClose { get; set; }
+    private List<Comment>? comments;
+
+    private Task ModalCancel()
+    {
+        return OnClose.InvokeAsync(false);
+    }
+ 
+    private Task ModalOk()
+    {
+        return OnClose.InvokeAsync(true);
+    }
+        protected override async Task OnInitializedAsync()
+    {
+        comments = await CommentService.GetXMLCommentListAsync(ImageId);
+    }
+}
