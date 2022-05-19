@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\BlazorApp\\BlazorApp.csproj": {}
+    "D:\\Projects\\WebsiteProject\\BlazorApp.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\BlazorApp\\BlazorApp.csproj": {
+    "D:\\Projects\\WebsiteProject\\BlazorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\BlazorApp\\BlazorApp.csproj",
+        "projectUniqueName": "D:\\Projects\\WebsiteProject\\BlazorApp.csproj",
         "projectName": "BlazorApp",
-        "projectPath": "D:\\Projects\\BlazorApp\\BlazorApp.csproj",
+        "projectPath": "D:\\Projects\\WebsiteProject\\BlazorApp.csproj",
         "packagesPath": "C:\\Users\\bking\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\BlazorApp\\obj\\",
+        "outputPath": "D:\\Projects\\WebsiteProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bking\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Blazor.Extensions.Canvas": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

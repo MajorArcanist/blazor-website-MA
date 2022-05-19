@@ -12,72 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 60435455,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Counter",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 1112980309,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Counter",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorApp.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -891376953,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.FetchData",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 77442737,
-        "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.FetchData",
-        "AssemblyName": "BlazorApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorApp.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 72710190,
         "Kind": "Components.Component",
         "Name": "BlazorApp.Pages.Gallery",
@@ -246,35 +180,35 @@
         }
       },
       {
-        "HashCode": -1959485522,
+        "HashCode": -891376953,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Index",
+        "Name": "BlazorApp.Pages.FetchData",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.Index"
+          "Common.TypeName": "BlazorApp.Pages.FetchData"
         }
       },
       {
-        "HashCode": 53475371,
+        "HashCode": 77442737,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Pages.Index",
+        "Name": "BlazorApp.Pages.FetchData",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Pages.Index"
+            "TagName": "BlazorApp.Pages.FetchData"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Pages.Index",
+          "Common.TypeName": "BlazorApp.Pages.FetchData",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -366,35 +300,134 @@
         }
       },
       {
-        "HashCode": -224849593,
+        "HashCode": -1959485522,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
+        "Name": "BlazorApp.Pages.Index",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.App"
+          "Common.TypeName": "BlazorApp.Pages.Index"
         }
       },
       {
-        "HashCode": -1077845890,
+        "HashCode": 53475371,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.App",
+        "Name": "BlazorApp.Pages.Index",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.App"
+            "TagName": "BlazorApp.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.App",
+          "Common.TypeName": "BlazorApp.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 60435455,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Pages.Counter",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 1112980309,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Pages.Counter",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1950112542,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Pages.Rendering",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Rendering"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Pages.Rendering"
+        }
+      },
+      {
+        "HashCode": -180021252,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Pages.Rendering",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.Pages.Rendering"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Pages.Rendering",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1613854634,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Shared.NavMenu",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1179575551,
+        "Kind": "Components.Component",
+        "Name": "BlazorApp.Shared.NavMenu",
+        "AssemblyName": "BlazorApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorApp.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorApp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -548,35 +581,35 @@
         }
       },
       {
-        "HashCode": -1613854634,
+        "HashCode": -224849593,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.NavMenu",
+        "Name": "BlazorApp.App",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Shared.NavMenu"
+          "Common.TypeName": "BlazorApp.App"
         }
       },
       {
-        "HashCode": -1179575551,
+        "HashCode": -1077845890,
         "Kind": "Components.Component",
-        "Name": "BlazorApp.Shared.NavMenu",
+        "Name": "BlazorApp.App",
         "AssemblyName": "BlazorApp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorApp.Shared.NavMenu"
+            "TagName": "BlazorApp.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorApp.Shared.NavMenu",
+          "Common.TypeName": "BlazorApp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -5124,6 +5157,144 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "Microsoft.AspNetCore.Components.Web.Virtualization.Virtualize<TItem>.Placeholder",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -266933097,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Extensions.BECanvasComponent",
+        "AssemblyName": "Blazor.Extensions.Canvas",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BECanvasComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Height",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Height"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Width",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Width"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Extensions.BECanvasComponent"
+        }
+      },
+      {
+        "HashCode": -658736583,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Extensions.BECanvasComponent",
+        "AssemblyName": "Blazor.Extensions.Canvas",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazor.Extensions.BECanvasComponent"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Height",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Height"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Width",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Width"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Extensions.BECanvasComponent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -240915735,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Extensions.Canvas.BECanvas",
+        "AssemblyName": "Blazor.Extensions.Canvas",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BECanvas"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Height",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Height"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Width",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Width"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Extensions.Canvas.BECanvas"
+        }
+      },
+      {
+        "HashCode": 626923093,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Extensions.Canvas.BECanvas",
+        "AssemblyName": "Blazor.Extensions.Canvas",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazor.Extensions.Canvas.BECanvas"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Height",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Height"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Width",
+            "TypeName": "System.Int64",
+            "Metadata": {
+              "Common.PropertyName": "Width"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Extensions.Canvas.BECanvas",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16866,6 +17037,11 @@
   },
   "RootNamespace": "BlazorApp",
   "Documents": [
+    {
+      "FilePath": "d:\\Projects\\WebsiteProject\\Pages\\Rendering.razor",
+      "TargetPath": "Pages\\Rendering.razor",
+      "FileKind": "component"
+    },
     {
       "FilePath": "d:\\Projects\\WebsiteProject\\App.razor",
       "TargetPath": "App.razor",

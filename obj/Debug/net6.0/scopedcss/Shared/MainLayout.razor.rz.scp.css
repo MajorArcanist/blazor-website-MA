@@ -2,15 +2,27 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(180deg, #330099 40%, #000000 90%);
+    min-height: 100vh;
 }
 
 main[b-3dsd3z3yec] {
-    flex: 1;
+    flex: 1; 
+}
+
+.content[b-3dsd3z3yec] {
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 5vw;
+    min-height: 75vh;
 }
 
 .site-header[b-3dsd3z3yec] {
     display: flex;
-    background-color: #210e64;
+    background-color: #330099;
     color: #ffffff;
     justify-content: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -31,8 +43,7 @@ main[b-3dsd3z3yec] {
 }
 
 .top-row[b-3dsd3z3yec] {
-    background-color: #210e64;
-    border-bottom: 1px solid #d6d5d5;
+    background-color: #330099;
     height: 4.5rem;
     display: flex;
     justify-content: center;

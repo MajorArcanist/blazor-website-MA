@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wVWc2pq7r+NZZMZX44jzZ8dovkxtjc8kSpDeSFPd0EQ=",
+  "Hash": "+7EtNfw8pdc+AGdcODuIPT0dyz3mYb/dOdYTOCDjqS4=",
   "Source": "BlazorApp",
   "BasePath": "_content/BlazorApp",
   "Mode": "Default",
@@ -10,17 +10,34 @@
     {
       "Name": "BlazorApp\\wwwroot",
       "Source": "BlazorApp",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Projects\\BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorApp.styles.css",
+      "Identity": "C:\\Users\\bking\\.nuget\\packages\\blazor.extensions.canvas\\1.1.1\\staticwebassets\\blazor.extensions.canvas.js",
+      "SourceId": "Blazor.Extensions.Canvas",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\bking\\.nuget\\packages\\blazor.extensions.canvas\\1.1.1\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Extensions.Canvas",
+      "RelativePath": "blazor.extensions.canvas.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bking\\.nuget\\packages\\blazor.extensions.canvas\\1.1.1\\staticwebassets\\blazor.extensions.canvas.js"
+    },
+    {
+      "Identity": "D:\\Projects\\WebsiteProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorApp.styles.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +48,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorApp.styles.css"
+      "OriginalItemSpec": "D:\\Projects\\WebsiteProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorApp.styles.css"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
+      "Identity": "D:\\Projects\\WebsiteProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css",
       "SourceId": "BlazorApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "BlazorApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +65,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\Projects\\BlazorApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Projects\\WebsiteProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApp.bundle.scp.css"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\commentdata.xml",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\commentdata.xml",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "commentdata.xml",
       "AssetKind": "All",
@@ -68,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\commentdata.xml"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -85,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -102,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -119,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -136,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -153,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -170,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -187,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -204,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -221,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -238,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -255,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\css\\site.css",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\favicon.ico",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -289,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\imagedata.xml",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\imagedata.xml",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "imagedata.xml",
       "AssetKind": "All",
@@ -306,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\imagedata.xml"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\images\\sarah.png",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\images\\sarah.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/sarah.png",
       "AssetKind": "All",
@@ -323,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\sarah.png"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\images\\Self.png",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\images\\Self.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/Self.png",
       "AssetKind": "All",
@@ -340,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Self.png"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\images\\TheEmperor.png",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\images\\TheEmperor.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/TheEmperor.png",
       "AssetKind": "All",
@@ -357,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\TheEmperor.png"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\images\\TheFool.png",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\images\\TheFool.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/TheFool.png",
       "AssetKind": "All",
@@ -374,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\TheFool.png"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\images\\TheHermit.png",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\images\\TheHermit.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/TheHermit.png",
       "AssetKind": "All",
@@ -391,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\TheHermit.png"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\images\\TheTower.png",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\images\\TheTower.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/TheTower.png",
       "AssetKind": "All",
@@ -408,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\TheTower.png"
     },
     {
-      "Identity": "D:\\Projects\\BlazorApp\\wwwroot\\images\\twocolors.png",
+      "Identity": "D:\\Projects\\WebsiteProject\\wwwroot\\images\\twocolors.png",
       "SourceId": "BlazorApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BlazorApp\\wwwroot\\",
+      "ContentRoot": "D:\\Projects\\WebsiteProject\\wwwroot\\",
       "BasePath": "_content/BlazorApp",
       "RelativePath": "images/twocolors.png",
       "AssetKind": "All",
